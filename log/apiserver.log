@@ -1,0 +1,28 @@
+{"level":"INFO","timestamp":"2019-11-16 16:04:48.112","file":"api/main.go:53","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-16 16:04:48.615","file":"api/main.go:50","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-16 16:06:35.482","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-16 16:06:35.486","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-16 16:06:35.665","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-16 16:06:35.667","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-16 16:06:57.314","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-16 16:06:57.316","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-16 16:06:57.508","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-16 16:06:57.509","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"ERROR","timestamp":"2019-11-17 14:26:37.744","file":"model/init.go:33","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user 'root'@'172.17.0.1' (using password: YES)"}}
+{"level":"ERROR","timestamp":"2019-11-17 14:26:37.771","file":"model/init.go:33","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user 'root'@'172.17.0.1' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-11-17 14:26:37.771","file":"api/main.go:59","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-17 14:26:37.774","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2019-11-17 14:31:13.241","file":"model/init.go:34","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user 'root'@'172.17.0.1' (using password: YES)"}}
+{"level":"ERROR","timestamp":"2019-11-17 14:31:13.293","file":"model/init.go:34","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user 'root'@'172.17.0.1' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-11-17 14:31:13.296","file":"api/main.go:59","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-17 14:31:13.301","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-17 14:35:41.334","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-17 14:35:41.337","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-17 14:35:48.591","file":"api/main.go:59","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-17 14:35:49.095","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-17 14:50:56.743","file":"api/main.go:59","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-17 14:50:57.245","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-11-17 14:52:35.856","file":"user/create.go:26","msg":"username is: [admin], password is []"}
+{"level":"DEBUG","timestamp":"2019-11-17 14:52:59.230","file":"user/create.go:26","msg":"username is: [], password is [admin]"}
+{"level":"ERROR","timestamp":"2019-11-17 14:52:59.231","file":"user/create.go:29","msg":"Get an error","data":{"error":"Err - code: 20102, message: The user was not found. This is add message., error: username can not found in db: xx.xx.xx.xx"}}
+{"level":"DEBUG","timestamp":"2019-11-17 14:52:59.231","file":"user/create.go:33","msg":"err type is ErrUserNotFound"}

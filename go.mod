@@ -9,6 +9,7 @@ require (
 	github.com/gin-gonic/gin v1.4.0
 	github.com/go-ole/go-ole v1.2.4 // indirect
 	github.com/golang/protobuf v1.3.2 // indirect
+	github.com/jinzhu/gorm v1.9.11
 	github.com/json-iterator/go v1.1.8 // indirect
 	github.com/lexkong/log v0.0.0-20180607165131-972f9cd951fc
 	github.com/mattn/go-isatty v0.0.10 // indirect
