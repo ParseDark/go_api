@@ -37,3 +37,11 @@
 {"level":"INFO","timestamp":"2019-11-17 15:52:18.080","file":"user/create.go:17","msg":"User Create function called.","data":{"X-Request-Id":""}}
 {"level":"INFO","timestamp":"2019-11-17 15:52:21.995","file":"user/create.go:17","msg":"User Create function called.","data":{"X-Request-Id":""}}
 {"level":"INFO","timestamp":"2019-11-17 15:54:36.488","file":"user/update.go:18","msg":"Update function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-11-17 16:16:16.068","file":"api/main.go:59","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-17 16:16:16.570","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-17 16:17:36.805","file":"user/create.go:17","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-11-17 16:19:03.858","file":"user/create.go:17","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-11-17 16:22:20.603","file":"api/main.go:59","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-17 16:22:21.109","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-17 16:22:32.643","file":"user/create.go:17","msg":"User Create function called.","data":{"X-Request-Id":"e361d57d-1da5-456b-b2a6-eb5e1b850c53"}}
+{"level":"INFO","timestamp":"2019-11-17 16:22:32.772","file":"middleware/logging.go:84","msg":"128.9982ms    | 127.0.0.1    | POST /v1/user | {code: 0, message: OK}"}
