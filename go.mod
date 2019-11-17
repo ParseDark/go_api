@@ -10,6 +10,7 @@ require (
 	github.com/go-ole/go-ole v1.2.4 // indirect
 	github.com/golang/protobuf v1.3.2 // indirect
 	github.com/json-iterator/go v1.1.8 // indirect
+	github.com/lexkong/log v0.0.0-20180607165131-972f9cd951fc
 	github.com/mattn/go-isatty v0.0.10 // indirect
 	github.com/shirou/gopsutil v2.19.10+incompatible
 	github.com/spf13/pflag v1.0.5

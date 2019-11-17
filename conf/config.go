@@ -1,11 +1,11 @@
 package config
 
 import (
-	"log"
 	"strings"
 
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/viper"
+	"github.com/lexkong/log"
 )
 
 type Config struct {
@@ -21,6 +21,8 @@ func Init(cfg string) error {
 	if err := c.initConfig(); err != nil {
 		return err
 	}
+
+	c.initLog()
 
 	// watch file modify and hot load
 	c.watchConfig()
@@ -52,10 +54,26 @@ func (c *Config) initConfig() error {
 
 	return nil
 }
+
+func (c *Config) initLog() {
+    passLagerCfg := log.PassLagerCfg {
+        Writers:        viper.GetString("log.writers"),
+        LoggerLevel:    viper.GetString("log.logger_level"),
+        LoggerFile:     viper.GetString("log.logger_file"),
+        LogFormatText:  viper.GetBool("log.log_format_text"),
+        RollingPolicy:  viper.GetString("log.rollingPolicy"),
+        LogRotateDate:  viper.GetInt("log.log_rotate_date"),
+        LogRotateSize:  viper.GetInt("log.log_rotate_size"),
+        LogBackupCount: viper.GetInt("log.log_backup_count"),
+    }
+
+    log.InitWithConfig(&passLagerCfg)
+}  
+
 // 监控配置文件变化并热加载程序
 func (c *Config) watchConfig() {
 	viper.WatchConfig()
 	viper.OnConfigChange(func (e fsnotify.Event) {
-		log.Printf("Config file change: %s", e.Name)
+		log.Infof("Config file change: %s", e.Name)
 	})
 }
