@@ -45,3 +45,8 @@
 {"level":"INFO","timestamp":"2019-11-17 16:22:21.109","file":"api/main.go:56","msg":"The router has been deployed successfully."}
 {"level":"INFO","timestamp":"2019-11-17 16:22:32.643","file":"user/create.go:17","msg":"User Create function called.","data":{"X-Request-Id":"e361d57d-1da5-456b-b2a6-eb5e1b850c53"}}
 {"level":"INFO","timestamp":"2019-11-17 16:22:32.772","file":"middleware/logging.go:84","msg":"128.9982ms    | 127.0.0.1    | POST /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-11-17 16:28:24.952","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-17 16:28:24.954","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-17 16:34:12.449","file":"api/main.go:59","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-17 16:34:12.954","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-17 16:35:42.258","file":"middleware/logging.go:84","msg":"119.9999ms    | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
