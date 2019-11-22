@@ -135,3 +135,4 @@
 {"level":"INFO","timestamp":"2019-11-22 23:35:34.916","file":"api/main.go:64","msg":"Start to listening the incoming requests on https address: :8881"}
 {"level":"INFO","timestamp":"2019-11-22 23:35:34.917","file":"api/main.go:56","msg":"The router has been deployed successfully."}
 {"level":"INFO","timestamp":"2019-11-22 23:35:34.938","file":"api/main.go:70","msg":"listen tcp :8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","timestamp":"2019-11-23 00:03:54.704","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
