@@ -78,3 +78,52 @@
 {"level":"INFO","timestamp":"2019-11-22 20:39:53.560","file":"api/main.go:65","msg":"tls: private key does not match public key"}
 {"level":"INFO","timestamp":"2019-11-22 20:39:53.582","file":"api/main.go:70","msg":"listen tcp :8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
 {"level":"INFO","timestamp":"2019-11-22 20:40:41.402","file":"middleware/logging.go:84","msg":"12.9945ms     | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-11-22 21:00:31.040","file":"api/main.go:82","msg":"Start to listening the incoming requests on https address: :8881"}
+{"level":"INFO","timestamp":"2019-11-22 21:00:31.039","file":"api/main.go:87","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 21:00:31.072","file":"api/main.go:83","msg":"tls: private key does not match public key"}
+{"level":"INFO","timestamp":"2019-11-22 21:00:31.543","file":"api/main.go:74","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-22 21:01:25.682","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-22 21:01:25.680","file":"api/main.go:64","msg":"Start to listening the incoming requests on https address: :8881"}
+{"level":"INFO","timestamp":"2019-11-22 21:01:25.679","file":"api/main.go:69","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 21:01:25.705","file":"api/main.go:70","msg":"listen tcp :8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","timestamp":"2019-11-22 21:01:32.721","file":"api/main.go:64","msg":"Start to listening the incoming requests on https address: :8881"}
+{"level":"INFO","timestamp":"2019-11-22 21:01:32.722","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-22 21:01:32.720","file":"api/main.go:69","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 21:01:32.743","file":"api/main.go:70","msg":"listen tcp :8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","timestamp":"2019-11-22 21:01:49.761","file":"api/main.go:69","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 21:01:49.761","file":"api/main.go:64","msg":"Start to listening the incoming requests on https address: :8881"}
+{"level":"INFO","timestamp":"2019-11-22 21:01:49.763","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-22 21:01:49.783","file":"api/main.go:70","msg":"listen tcp :8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","timestamp":"2019-11-22 21:02:05.045","file":"api/main.go:69","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 21:02:05.045","file":"api/main.go:64","msg":"Start to listening the incoming requests on https address: :8881"}
+{"level":"INFO","timestamp":"2019-11-22 21:02:05.047","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-22 21:02:05.075","file":"api/main.go:70","msg":"listen tcp :8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","timestamp":"2019-11-22 22:56:28.573","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-22 22:56:28.580","file":"api/main.go:69","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 22:56:28.584","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-22 22:56:28.581","file":"api/main.go:64","msg":"Start to listening the incoming requests on https address: :8881"}
+{"level":"INFO","timestamp":"2019-11-22 22:56:28.670","file":"api/main.go:70","msg":"listen tcp :8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","timestamp":"2019-11-22 23:11:19.504","file":"api/main.go:69","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 23:11:19.506","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-22 23:11:19.504","file":"api/main.go:64","msg":"Start to listening the incoming requests on https address: :8881"}
+{"level":"INFO","timestamp":"2019-11-22 23:11:19.540","file":"api/main.go:70","msg":"listen tcp :8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","timestamp":"2019-11-22 23:11:27.837","file":"api/main.go:69","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 23:11:27.841","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-22 23:11:27.837","file":"api/main.go:64","msg":"Start to listening the incoming requests on https address: :8881"}
+{"level":"INFO","timestamp":"2019-11-22 23:11:27.858","file":"api/main.go:70","msg":"listen tcp :8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","timestamp":"2019-11-22 23:11:52.527","file":"api/main.go:69","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 23:11:52.528","file":"api/main.go:64","msg":"Start to listening the incoming requests on https address: :8881"}
+{"level":"INFO","timestamp":"2019-11-22 23:11:52.529","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-22 23:11:52.550","file":"api/main.go:70","msg":"listen tcp :8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","timestamp":"2019-11-22 23:11:55.912","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-22 23:11:55.914","file":"api/main.go:69","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 23:11:55.914","file":"api/main.go:64","msg":"Start to listening the incoming requests on https address: :8881"}
+{"level":"INFO","timestamp":"2019-11-22 23:11:55.934","file":"api/main.go:70","msg":"listen tcp :8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","timestamp":"2019-11-22 23:15:45.711","file":"api/main.go:79","msg":"Start to listening the incoming requests on https address: :8881"}
+{"level":"INFO","timestamp":"2019-11-22 23:15:45.710","file":"api/main.go:84","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 23:15:45.736","file":"api/main.go:80","msg":"tls: private key does not match public key"}
+{"level":"INFO","timestamp":"2019-11-22 23:15:46.213","file":"api/main.go:71","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-22 23:15:57.889","file":"api/main.go:64","msg":"Start to listening the incoming requests on https address: :8881"}
+{"level":"INFO","timestamp":"2019-11-22 23:15:57.891","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-22 23:15:57.889","file":"api/main.go:69","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 23:15:57.912","file":"api/main.go:70","msg":"listen tcp :8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
