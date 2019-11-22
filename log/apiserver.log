@@ -50,3 +50,25 @@
 {"level":"INFO","timestamp":"2019-11-17 16:34:12.449","file":"api/main.go:59","msg":"Start to listening the incoming requests on http address: :8888"}
 {"level":"INFO","timestamp":"2019-11-17 16:34:12.954","file":"api/main.go:56","msg":"The router has been deployed successfully."}
 {"level":"INFO","timestamp":"2019-11-17 16:35:42.258","file":"middleware/logging.go:84","msg":"119.9999ms    | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-11-17 18:41:26.428","file":"middleware/logging.go:84","msg":"112.0217ms    | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-11-17 18:41:35.092","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-19 21:12:38.454","file":"middleware/logging.go:84","msg":"155.0063ms    | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-11-21 21:21:50.533","file":"middleware/logging.go:84","msg":"160.9754ms    | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-11-22 20:01:57.967","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-22 20:09:01.501","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-22 20:09:01.502","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-22 20:26:14.557","file":"api/main.go:64","msg":"Start to listening the incoming requests on https address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 20:26:14.554","file":"api/main.go:69","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 20:26:14.585","file":"api/main.go:65","msg":"listen tcp :8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","timestamp":"2019-11-22 20:26:15.069","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-22 20:30:51.975","file":"middleware/logging.go:84","msg":"127.9978ms    | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-11-22 20:30:54.949","file":"middleware/logging.go:84","msg":"117.995ms     | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-11-22 20:33:49.759","file":"middleware/logging.go:84","msg":"15.0039ms     | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-11-22 20:34:03.687","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-22 20:34:03.689","file":"conf/config.go:77","msg":"Config file change: C:\\Users\\whd10\\Desktop\\apiserver\\api\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-11-22 20:34:30.222","file":"api/main.go:69","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-11-22 20:34:30.222","file":"api/main.go:64","msg":"Start to listening the incoming requests on https address: :8881"}
+{"level":"INFO","timestamp":"2019-11-22 20:34:30.254","file":"api/main.go:65","msg":"tls: private key does not match public key"}
+{"level":"INFO","timestamp":"2019-11-22 20:34:30.726","file":"api/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-11-22 20:34:46.994","file":"middleware/logging.go:84","msg":"110.0172ms    | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-11-22 20:35:00.316","file":"middleware/logging.go:84","msg":"20.0052ms     | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
